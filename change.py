@@ -4,7 +4,7 @@ import numpy as np
 from mpl_toolkits.mplot3d import axes3d
 import pandas as pd
 
-csv1='ABW_0_0.csv'
+csv1='EDI_0_0.csv'
 csv2='ABW_2_0.csv'
 
 xlist=[]
