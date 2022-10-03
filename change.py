@@ -7,8 +7,7 @@ import pandas as pd
 csv1='ABW_0_0.csv'
 csv2='ABW_2_0.csv'
 
-xlist=csv1
-print(xlist)
+xlist=[]
 ylist=[]
 zlist=[]
 isitelist=[]
@@ -18,7 +17,7 @@ with open(csv1,newline='') as inputfile:
     for row in csv.reader(inputfile):
         if not row[0].isdecimal():
             continue
-        #xlist.append(float(row[4]))
+        xlist.append(float(row[4]))
         ylist.append(float(row[5]))
         zlist.append(float(row[6]))
         isitelist.append(row[2])
@@ -41,7 +40,7 @@ with open(csv2,newline='') as inputfile:
         atomlist2.append(row[3])
 
 from dataclasses import replace
-from turtle import Turtle
+#from turtle import Turtle
 from distance_func import make_distance
 import re
 

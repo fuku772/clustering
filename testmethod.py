@@ -1,5 +1,5 @@
 from dataclasses import replace
-from turtle import Turtle
+#from turtle import Turtle
 from distance_func import make_distance
 
 csv1='ABW_0_0.csv'

@@ -4,7 +4,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d.art3d as art3d
 
-
 def clusterplot(clusterdf,title='cluster'):
 	noods=list()
 	alist=[]
